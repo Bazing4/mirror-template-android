@@ -27,8 +27,11 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':domain')
+    //implementation project(path: ':domain')
     //implementation project(path: ':data')
+    //implementation project(path: ':core')
+    implementation project(path: ':sdk')
+    implementation project(path: ':examplemodule')
 
     def dependencies = rootProject.ext.dependencies
     def testDependencies = rootProject.ext.testDependecies

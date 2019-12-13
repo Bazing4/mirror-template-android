@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bryanollivie.examplemodule">
+
+    <application>
+
+        <activity android:name=".books.BooksActivity">
+            <intent-filter>
+                <action android:name="com.bryanollivie.examplemodule.books.open"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".details.BookDetailsActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>
